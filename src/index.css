@@ -1,13 +1,44 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+
+
+@layer components {
+  .btn {
+        position: relative;
+        border-radius: 10px;
+        color: #fff;
+        cursor: pointer;
+        transition: all 300ms ease;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        /* &:hover {
+          background: $dark-bg;
+          color: #fff;
+        } */
+      }
+      .btnstyle{
+         @apply   flex justify-center items-center p-1 border hover:text-white border-[#f83811]  w-fit  text-white text-sm mr-2 font-medium px-2 rounded-xl
+      }
+  .bgimg {
+    background: url('./images/banner/banner.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .gborder{
+    @apply border-2 border-gray-500 from-[#f88311] to-[#f83811]
+  }
+
+
+  .gradient{
+    @apply  bg-gradient-to-t  from-[#f88311] to-[#f83811]
+  }
 }
