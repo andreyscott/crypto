@@ -1,9 +1,14 @@
 import React from 'react'
+import { Cta } from '../component/Cta'
+import { Wallet } from '../component/Wallet'
 
 export const Home = () => {
   return (
-    <div className=' gradient'>
-        <h1 className=' '>Home</h1>
-    </div>
+    <div className=' bg-darkBg h-full text-white '>
+<Cta />
+<Wallet />
+</div>
+    
   )
 }
+
