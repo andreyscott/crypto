@@ -7,6 +7,56 @@
 
 
 @layer components {
+  .inner-part {
+    p {
+        transform: rotate(45deg);
+        margin: 0;
+        color: #fff;
+        text-align: center;
+        position: relative;
+        left: -11px;
+        top: -18px;
+
+        @media screen {
+          
+        }
+
+        @media (max-width: 600px) {
+            left: -8px;
+            font-size: 10px;
+            top: -15px;
+        }
+    }
+
+    &.doc {
+      svg{
+
+      }
+        svg {
+          @media screen {
+            
+          }
+            @media (max-width: 600px) {
+                top: 0;
+                left: 16%;
+            }
+        }
+    }
+
+    svg {
+        transform: rotate(45deg);
+        margin-bottom: 20px;
+        position: relative;
+        left: 15%;
+
+        @media (max-width: 600px) {
+            height: 20px;
+            left: 10%;
+            top: 3%;
+        }
+    }
+}
+
   .btn {
         position: relative;
         border-radius: 10px;
@@ -18,11 +68,105 @@
         font-size: 14px;
         font-weight: 500;
         letter-spacing: 1px;
-        /* &:hover {
-          background: $dark-bg;
-          color: #fff;
-        } */
+ 
       }
+
+      .flexi {
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: auto;
+        width: 50%;
+      }
+
+      .wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        transform: rotate(45deg);
+        position: relative;
+    
+        @media (max-width: 1280px) {
+            width: 93%;
+        }
+    
+        @media (max-width: 1024px) {
+            width: 89%;
+        }
+    
+        @media (max-width: 820px) {
+            width: 80%;
+            left: 20%;
+        }
+    
+        @media (max-width: 414px) {
+            width: 72%;
+            top: 40px;
+            left: 19%;
+        }
+    }
+
+      .someclass {
+        width: 54%;
+        display: flex;
+        margin-bottom: 30px;
+
+        @media screen {
+          
+        }
+    
+        @media (max-width: 1680px) {
+            width: 65%;
+        }
+    
+        @media (max-width: 1440px) {
+            width: 80%;
+        }
+    
+        @media (max-width: 1280px) {
+            width: 93%;
+        }
+    
+        @media (max-width: 820px) {
+            width: 66%;
+        }
+    
+        @media (max-width: 768px) {
+            width: 72%;
+        }
+    
+        @media (max-width: 414px) {
+            width: 100%;
+        }
+    }
+
+      .doc-icon-wrap .inner-part {
+        width: 180.8px;
+        height: 180.8px;
+        left: 872px;
+        top: 2208.85px;
+    
+        background: linear-gradient(101.71deg, rgba(255, 255, 255, 0.1) 0.89%, rgba(255, 255, 255, 0.16) 73.38%);
+        box-shadow: 0px 10px 24px -1px rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(34px);
+        /* Note: backdrop-filter has minimal browser support */
+    
+        border-radius: 15px;
+
+        @media screen {
+          
+        }
+    
+        @media (max-width: 1024px) {
+            width: 150px;
+            height: 150px;
+        }
+    
+        @media (max-width: 414px) {
+            width: 100px;
+            height: 100px;
+        }
+    }
+    
       .btnstyle{
          @apply   flex justify-center items-center p-1 border hover:text-white border-[#f83811]  w-fit  text-white text-sm mr-2 font-medium px-2 rounded-xl
       }
@@ -33,6 +177,9 @@
     background-size: cover;
   }
 
+  .span {
+    @apply text-white text-4xl font-medium
+  }
   .gborder{
     @apply border-2 border-gray-500 from-[#f88311] to-[#f83811]
   }
@@ -40,5 +187,214 @@
 
   .gradient{
     @apply  bg-gradient-to-t  from-[#f88311] to-[#f83811]
+  }
+}
+
+
+
+
+
+.developers {
+  padding: 50px 170px;
+
+  @media (max-width: 1366px) {
+      padding: 50px 150px;
+  }
+
+  @media (max-width: 1024px) {
+      padding: 50px 75px;
+  }
+
+  @media (max-width: 600px) {
+      padding: 50px 30px;
+
+      img {
+          width: 290px;
+          height: auto;
+      }
+  }
+}
+
+#small-shape {
+  animation: width infinite .5s;
+}
+
+body {
+  background: #1F1C2B;
+}
+
+.doc-icon-wrap,
+.doc-icon-empty-wrap {
+  width: 50%
+}
+
+.doc-icon-wrap .inner-part {
+  width: 180.8px;
+  height: 180.8px;
+  left: 872px;
+  top: 2208.85px;
+
+  background: linear-gradient(101.71deg, rgba(255, 255, 255, 0.1) 0.89%, rgba(255, 255, 255, 0.16) 73.38%);
+  box-shadow: 0px 10px 24px -1px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(34px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 15px;
+
+  @media (max-width: 1024px) {
+      width: 150px;
+      height: 150px;
+  }
+
+  @media (max-width: 414px) {
+      width: 100px;
+      height: 100px;
+  }
+}
+
+.doc-icon-empty-wrap .inner-part {
+  width: 65.29px;
+  height: 65.29px;
+  left: 954px;
+  top: 2454px;
+
+  background: linear-gradient(101.71deg, rgba(255, 255, 255, 0.1) 0.89%, rgba(255, 255, 255, 0.16) 73.38%);
+  box-shadow: 0px 10px 24px -1px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(34px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 15px;
+
+  @media (max-width: 600px) {
+      width: 50px;
+      height: 50px;
+      border-radius: 10px;
+  }
+}
+
+.inner-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* .inner-part {
+ p {
+      transform: rotate(45deg);
+      margin: 0;
+      color: #fff;
+      text-align: center;
+      position: relative;
+      left: -11px;
+      top: -18px;
+
+      @media (max-width: 600px) {
+          left: -8px;
+          font-size: 10px;
+          top: -15px;
+      }
+  }
+
+  &.doc {
+      svg {
+          @media (max-width: 600px) {
+              top: 0;
+              left: 16%;
+          }
+      }
+  } */
+
+  svg {
+      transform: rotate(45deg);
+      margin-bottom: 20px;
+      position: relative;
+      left: 15%;
+
+      @media (max-width: 600px) {
+          height: 20px;
+          left: 10%;
+          top: 3%;
+      }
+  }
+
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  transform: rotate(-45deg);
+  position: relative;
+
+  @media (max-width: 1280px) {
+      width: 93%;
+  }
+
+  @media (max-width: 1024px) {
+      width: 89%;
+  }
+
+  @media (max-width: 820px) {
+      width: 80%;
+      left: 20%;
+  }
+
+  @media (max-width: 414px) {
+      width: 72%;
+      top: 40px;
+      left: 19%;
+  }
+}
+
+.someclass {
+  width: 54%;
+  display: flex;
+  margin-bottom: 30px;
+
+  @media (max-width: 1680px) {
+      width: 65%;
+  }
+
+  @media (max-width: 1440px) {
+      width: 80%;
+  }
+
+  @media (max-width: 1280px) {
+      width: 93%;
+  }
+
+  @media (max-width: 820px) {
+      width: 66%;
+  }
+
+  @media (max-width: 768px) {
+      width: 72%;
+  }
+
+  @media (max-width: 414px) {
+      width: 100%;
+  }
+}
+
+.doc-icon-empty-wrap {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  right: 30px;
+}
+
+
+@keyframes width {
+  0% {
+      width: 65.2889px;
+  }
+
+  50% {
+      width: 180px;
+  }
+
+  100% {
+      width: 65.2889px;
   }
 }
