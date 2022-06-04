@@ -4,10 +4,10 @@ import React from 'react';
 const Developers = (props) => {
   return (
     <div>
-      <div className="developers py-12 px-8  xl:py-12 xl:px-28 ">
-        <div className='flex flex-wrap text-white px-2   mx-5 mt-1 ' >
+      <div className="py-12 px-8  xl:py-12 xl:pl-16 xl:pr-9 ">
+        <div className='flex flex-col lg:flex-row text-white px-2 lg: justify-between  mx-5 mt-1 ' >
           <div
-            className="flex flex-col items-start justify-center text-left w-1/2"
+            className="flex flex-col items-start  justify-center text-left  "
           >
             <p className="heading text-primary uppercase font-medium text-xl lg:text-2xl mb-1">Developers</p>
             <p className="title-line text-3xl xl:text-4xl  text-white uppercase font-medium mb-2">
@@ -21,13 +21,13 @@ const Developers = (props) => {
             </p>
           </div>
 
-          <div className='flexi bg-slate-500' >
-            <div class="wrapper">
+          <div className='   relative '>
+            <div class="wrapper m-6 w-full">
               <div class="someclass">
                 <a
                   href="https://docs.usdao.io/docs/"
                   target="_blank" rel="noreferrer"
-                  class="doc-icon-wrap w-1/2"
+                  class="doc-icon-wrap"
                 >
                   <div class="inner-part doc">
                     <svg
@@ -48,7 +48,7 @@ const Developers = (props) => {
                     <p>Documentation</p>
                   </div>
                 </a>
-                <a
+                {/* <a
                   href="https://docs.usdao.io/docs/getting-started/for-developers"
                   target="_blank" rel="noreferrer"
                   class="doc-icon-wrap"
@@ -71,7 +71,7 @@ const Developers = (props) => {
 
                     <p> Developer Kits </p>
                   </div>
-                </a>
+                </a> */}
               </div>
               <div class="someclass">
                 <div class="doc-icon-empty-wrap">

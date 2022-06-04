@@ -6,10 +6,10 @@ const Developers = (props) => {
   return (
     <div>
       <div className="developers">
-        <div>
+        <div className='grid  grid-cols-2 gap-2 bg-slate-400'>
           <div
             lg={6}
-            className="d-flex flex-divumn align-items-start justify-content-center"
+            className="flex flex-divumn align-items-start justify-content-center"
           >
             <p className="heading">Developers</p>
             <p className="title-line">
