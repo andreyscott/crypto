@@ -8,6 +8,38 @@
 
 @layer components {
 
+  .btnstyle{
+    @apply   flex justify-center items-center p-1 border hover:text-white border-[#f83811]  w-fit  text-white text-sm mr-2 font-medium px-2 rounded-xl
+ }
+
+ .token-title  {
+   @apply span text-xl mb-3 text-center
+ }
+
+ .token-wrap { 
+   @apply flex-col m-3 flex items-center content-center justify-center
+ }
+ .token-content {
+   @apply w-4/6 text-base mb-5 text-secondary text-center font-normal
+ }
+
+ .contentsstyle{ 
+   @apply w-8/12 text-center  text-lg lg:text-2xl  mt-5 text-secondary
+ }
+
+ .span {
+  @apply text-white text-4xl font-medium
+}
+.gborder{
+  @apply border-2 border-gray-500 from-[#f88311] to-[#f83811]
+}
+
+
+.gradient{
+  @apply  bg-gradient-to-t  from-[#f88311] to-[#f83811]
+}
+}s
+
   .btn {
         position: relative;
         border-radius: 10px;
@@ -22,45 +54,69 @@
  
       }
 
- 
+      .bg-square {
+        position: absolute;
+        width: 869.84px;
+        height: 868.59px;
+        left: -40%;
+        top: -24%;
+        background: linear-gradient(101.69deg, rgba(255, 255, 255, 0.1) 50.03%, rgba(255, 255, 255, 0.16) 122.41%);
+        box-shadow: 0px 10px 24px rgb(0 0 0 / 20%);
+        -webkit-backdrop-filter: blur(34px);
+        backdrop-filter: blur(34px);
+        border-radius: 15px;
+        transform: rotate(45deg);
+        z-index: 0;
     
-      .btnstyle{
-         @apply   flex justify-center items-center p-1 border hover:text-white border-[#f83811]  w-fit  text-white text-sm mr-2 font-medium px-2 rounded-xl
-      }
+    }
 
-      .token-title  {
-        @apply span text-xl mb-3 text-center
-      }
+    .bg-square-rep {
+      @media (max-width: 1800px) {
+        left: -42%;
+    }
 
-      .token-wrap { 
-        @apply flex-col m-3 flex items-center content-center justify-center
-      }
-      .token-content {
-        @apply w-4/6 text-base mb-5 text-secondary text-center font-normal
-      }
+    @media (max-width: 1600px) {
+        width: 750px;
+        height: 750px;
+        left: -36%;
+        top: -6%;
+    }
 
-      .contentsstyle{ 
-        @apply w-8/12 text-center  text-lg lg:text-2xl  mt-5 text-secondary
-      }
+    @media (max-width: 1440px) {
+      
+        width: 690px;
+        height: 690px;
+        left: -35%;
+        top: -2%;
+    }
+
+    @media (max-width: 1280px) {
+        left: -39%;
+    }
+
+    @media (max-width: 1024px) {
+        left: -51%;
+        top: -5%;
+    }
+
+    @media (max-width: 820px) {
+        left: -54%;
+        top: 7%;
+    }
+
+    @media (max-width: 768px) {
+        display: none;
+    }
+    }
+
+
+ 
   .bgimg {
     background: url('./images/banner/banner.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
-
-  .span {
-    @apply text-white text-4xl font-medium
-  }
-  .gborder{
-    @apply border-2 border-gray-500 from-[#f88311] to-[#f83811]
-  }
-
-
-  .gradient{
-    @apply  bg-gradient-to-t  from-[#f88311] to-[#f83811]
-  }
-}
 
 
 
