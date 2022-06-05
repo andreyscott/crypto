@@ -22,14 +22,14 @@ const Developers = (props) => {
           </div>
 
           <div className='   relative '>
-            <div class="wrapper m-6 w-full">
-              <div class="someclass">
+            <div className="wrapper m-6 w-full">
+              <div className="someclass">
                 <a
                   href="https://docs.usdao.io/docs/"
                   target="_blank" rel="noreferrer"
-                  class="doc-icon-wrap"
+                  className="doc-icon-wrap"
                 >
-                  <div class="inner-part doc">
+                  <div className="inner-part doc">
                     <svg
                       width="38"
                       height="42"
@@ -73,16 +73,16 @@ const Developers = (props) => {
                   </div>
                 </a> */}
               </div>
-              <div class="someclass">
-                <div class="doc-icon-empty-wrap">
-                  <div class="inner-part"></div>
+              <div className="someclass">
+                <div className="doc-icon-empty-wrap">
+                  <div className="inner-part"></div>
                 </div>
                 <a
                   href="https://github.com/"
                   target="_blank" rel="noreferrer"
-                  class="doc-icon-wrap"
+                  className="doc-icon-wrap"
                 >
-                  <div class="inner-part">
+                  <div className="inner-part">
                     <svg
                       width="50"
                       height="50"

@@ -11,13 +11,13 @@ export const Wallet = () => {
 
       <div
         
-        className=" w-1/2 ml-5 flex flex-col  items-start align-items-md-center justify-content-center"
+        className=" w-1/2 ml-2 flex flex-col  items-start align-items-md-center justify-content-center"
       >
         <p className="title-line text-xl xl:text-4xl font-medium text-left mb-2">
           WHAT ARE YOU WAITING <span className=' text-primary text-4xl font-medium'>FOR?</span>
         </p>
 
-        <p className=" w-80 font-normal mt-4 mb-6  text-secondary">
+        <p className="w-60 font-normal mt-4 mb-6  text-secondary">
           There’s no need to create an account! Just connect your web 3.0
           wallet and get USDAO
         </p>
