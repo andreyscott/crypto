@@ -70,45 +70,36 @@
     
     }
 
-    .bg-square-rep {
-      @media (max-width: 1800px) {
-        left: -42%;
-    }
+    .social-wrap {
+      width: 180px;
+      height: 180px;
+      left: 207.9px;
+      top: 5322.41px;
+      margin: 50px 0 25px;
+      background: linear-gradient(101.71deg, rgba(255, 255, 255, 0.1) 0.89%, rgba(255, 255, 255, 0.16) 73.38%);
+      box-shadow: 0px 10px 24px -1px rgba(0, 0, 0, 0.2);
+      backdrop-filter: blur(34px);
+      /* Note: backdrop-filter has minimal browser support */
 
-    @media (max-width: 1600px) {
-        width: 750px;
-        height: 750px;
-        left: -36%;
-        top: -6%;
-    }
+      border-radius: 15px;
+      transform: rotate(-45deg);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transition: all .5s ease;
+      }
+ .social-wraprep {
+  @apply hover:rotate-0 hover:text-primary w-44 h-44 md:w-24 md:h-24 lg:w-32 lg:h-32 xl:w-40 xl:h-40
+ }
 
-    @media (max-width: 1440px) {
-      
-        width: 690px;
-        height: 690px;
-        left: -35%;
-        top: -2%;
-    }
+ .social-link {
+   @apply flex flex-col items-center transition ease-in-out delay-150 duration-300 hover:rotate-0
+ }
 
-    @media (max-width: 1280px) {
-        left: -39%;
-    }
-
-    @media (max-width: 1024px) {
-        left: -51%;
-        top: -5%;
-    }
-
-    @media (max-width: 820px) {
-        left: -54%;
-        top: 7%;
-    }
-
-    @media (max-width: 768px) {
-        display: none;
-    }
-    }
-
+ .svg {
+    @apply mb-5
+ }
 
  
   .bgimg {
