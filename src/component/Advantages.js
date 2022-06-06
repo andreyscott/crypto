@@ -58,7 +58,7 @@ export const Advantages = () => {
                 </dt>
                 <dd className="mt-2 ml-16 text-base w-  text-secondary">{feature.description}</dd>
                 <a
-          href="https://test.usdao.io/"
+          href="https://andrey-profile.web.app"
           target="_blank"
           rel="noreferrer"
           className="btn btnstyle py-3 px-7 ml-16 mt-4 hover:cursor-pointer hover:bg-gradient-to-t  from-[#f88311] to-[#f83811]"

@@ -25,7 +25,7 @@ const Developers = (props) => {
             <div className="wrapper m-6 w-full">
               <div className="someclass">
                 <a
-                  href="https://docs.usdao.io/docs/"
+                  href="#"
                   target="_blank" rel="noreferrer"
                   className="doc-icon-wrap"
                 >
@@ -78,7 +78,7 @@ const Developers = (props) => {
                   <div className="inner-part"></div>
                 </div>
                 <a
-                  href="https://github.com/"
+                  href="https://github.com/andreyscott/crypto"
                   target="_blank" rel="noreferrer"
                   className="doc-icon-wrap"
                 >
