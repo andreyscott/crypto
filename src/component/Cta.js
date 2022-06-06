@@ -53,7 +53,7 @@ export const Cta = () => {
           </a>
 
           <a
-            href="https://docs.usdao.io/docs/"
+            href="/"
             target="_blank"
             rel="noreferrer"
             className="btn  btnstyle hover:bg-gradient-to-t  from-[#f88311] to-[#f83811] "

@@ -119,7 +119,7 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <p className='span text-base'>
+      <p className='span flex justify-center items-center my-4 text-base'>
   Copyrigth
         &copy; 2022 AndreyScott
       </p>

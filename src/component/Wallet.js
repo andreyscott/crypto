@@ -1,11 +1,12 @@
 import React from 'react'
 
 import coins from "../images/shapes/all-coin-logos.svg";
+
 export const Wallet = () => {
   return (
-    <div className=" py-6 px-7">
+    <div className=" py-6 px-3">
     <div className='flex flex-col md:flex-row justify-center items-center'>
-      <div  className=" w-1/2 mr-5 max-w-md">
+      <div  className=" w-1/2 mr-2 max-w-lg">
         <img src={coins} alt="coins" className=" w-auto" />
       </div>
 
@@ -13,7 +14,7 @@ export const Wallet = () => {
         
         className=" w-1/2 ml-2 flex flex-col  items-start align-items-md-center justify-content-center"
       >
-        <p className="title-line text-xl xl:text-4xl font-medium text-left mb-2">
+        <p className="title-line text-2xl span xl:text-4xl font-medium text-left mb-2">
           WHAT ARE YOU WAITING <span className=' text-primary text-4xl font-medium'>FOR?</span>
         </p>
 
@@ -23,7 +24,7 @@ export const Wallet = () => {
         </p>
 
         <a
-          href="https://test.usdao.io/"
+          href="#"
           target="_blank"
           rel="noreferrer"
           className="btn btnstyle py-3 px-7 hover:cursor-pointer hover:bg-gradient-to-t  from-[#f88311] to-[#f83811]"
