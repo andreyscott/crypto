@@ -17,7 +17,7 @@ const features = [
       icon: list,
     },
     {
-      name: 'TraVOTINGnsfers are instant',
+      name: 'VOTING',
       description:
         'Wallets with delegated DAOGOV power vote on proposals, deciding whether to approve or reject, ensuring complete decentralized decision making.',
       icon: list,
@@ -33,10 +33,10 @@ export const Protocol = () => {
         <div className="bg-square hidden md:-left-1/2 md:top-5 md:flex  lg:-top-4 lg:-left-1/2 xl:-left-[51%] xl:-top-[5%] 2xl:-left-[-39%] "></div>
         <div className=" relative z-10 flex flex-col md:flex-row  mx-3 mt-6 ">
           <div
-           className="flex h-96 w-96 ml-4 mb-3 lg:w-1/2 flex-col  items-start justify-center content-center "
+           className="flex h-96 w-96 ml-2 mb-3 lg:w-1/2 flex-col  items-start justify-center content-center "
           >
             <p className="span text-lg pb-3 text-primary">GOVERNANCE PROTOCOL</p>
-            <p className="title-line text-5xl span pb-3">Governed by the community.</p>
+            <p className="title-line text-4xl span pb-3">Governed by the community.</p>
 
             <p className="content text-xl w-3/4 pb-3 text-secondary">
               The USDAO Protocol is managed by a global community of our token

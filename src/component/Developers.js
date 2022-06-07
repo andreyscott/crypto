@@ -49,7 +49,7 @@ const Developers = (props) => {
                   </div>
                 </a>
                 {/* <a
-                  href="https://docs.usdao.io/docs/getting-started/for-developers"
+                  href="#"
                   target="_blank" rel="noreferrer"
                   class="doc-icon-wrap"
                 >

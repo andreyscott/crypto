@@ -7,8 +7,8 @@ import daotoken from "../images/tokens/dao-token.svg";
 export const Token = () => {
   return (
     <div className="tokens  overflow-hidden text-center flex flex-col items-center">
-    <p className="title-line text-xl lg:text-2xl xl:text-3xl font-semibold text-center">
-      <span className='span  text-primary'>USDAO Protocol</span> Three tokens, one purpose
+    <p className="span   text-xl lg:text-3xl xl:text-4xl font-semibold text-center">
+      <span className='text-primary'>USDAO Protocol</span> Three tokens, one purpose
     </p>
 
     <p className="contentsstyle mb-6 ">
